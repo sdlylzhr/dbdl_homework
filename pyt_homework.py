@@ -31,12 +31,8 @@ if ctlen != 0:
         copyTeachers.remove(copyTeachers[randnum])
         numlen -= 1
         j += 1
-endlen = len(copyTeachers)
 room3 = []
-k=0
-numlen = endlen
-if endlen != 0:
-    room3.extend(copyTeachers)
+room3.extend(copyTeachers)
 rooms.append(room1)
 rooms.append(room2)
 rooms.append(room3)
