@@ -1,4 +1,5 @@
 import random
+
 # 1. 定义一个列表，嵌套的列表
 rooms = [[], [], []]
 # 2. 有一个列表，保存了 8 名老师的名字
@@ -14,7 +15,7 @@ for name in teachers:
 print(rooms)
 i = 1
 for room in rooms:
-    print("办公室%d 里面的老师姓名是:"%i)
+    print("办公室%d 里面的老师姓名是:" % i)
     for name in room:
         print(name, end=" ")
     print("")
